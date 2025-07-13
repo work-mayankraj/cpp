@@ -16,34 +16,37 @@ int main()
     cout << "Enter the marks of your third subject :";
     cin >> number3;
 
+    // calculate total marks
     float totalMarks;
     totalMarks = number1 + number2 + number3 ;
     cout << "your total marks is: " << totalMarks << endl;
 
+    // calculate percentage
     float percentage;
-    percentage = totalMarks /3;
+    percentage = (totalMarks /300)*100;
     cout << "your percentage is: " << percentage << endl;
     
+    //calculate grade
     char grade;
     if(percentage>90)
     {
         cout << "grade 'A'" << endl;
     }
     else if(percentage>80)
-        {
+    {
         cout << "grade 'B'" << endl;
-        }
-        else if(percentage>70)
-        {
+    }
+    else if(percentage>70)
+    {
         cout << "grade 'c'" << endl;
-        }
-        else if(percentage>60)
-        {
+    }
+    else if(percentage>60)
+    {
         cout << "grade 'D'" << endl;
-        }
+    }
     else
     {
-    cout << "You are fail." << endl;
+        cout << "You are fail." << endl;
     }
     return 0;
 }
