@@ -1,3 +1,5 @@
+/*WAP that takes four single digit positive number as input and form a number from them in such a way- num1 will act as ones, num2
+ will act as tens, num3 will act as hundreds, num4 will act as thousands.*/ 
 #include<iostream>
 using namespace std;
 int main()
