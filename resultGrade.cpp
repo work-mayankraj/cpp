@@ -38,7 +38,7 @@ int main()
     }
     else if(percentage>70)
     {
-        cout << "grade 'c'" << endl;
+        cout << "grade 'C'" << endl;
     }
     else if(percentage>60)
     {
