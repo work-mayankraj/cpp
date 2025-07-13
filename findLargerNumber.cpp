@@ -16,7 +16,7 @@ int main()
     }
     else 
     {
-        cout << number1 << " > " << number2 << endl;
+        cout << number1 << " < " << number2 << endl;
     }
 
     return 0;
