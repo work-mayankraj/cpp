@@ -12,7 +12,7 @@ int main(){
       }
       else if(number==0)
       {
-        cout << "your number is zero ." << endl;
+        cout << "your number is zero." << endl;
       }
       else
       {
