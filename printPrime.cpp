@@ -14,7 +14,7 @@ int main()
         if(num%i==0)
         {
             prime=true;
-             break;
+            break;
             
         }
     }
