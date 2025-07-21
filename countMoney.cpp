@@ -12,7 +12,7 @@ int main()
     hund=num1/100;
 
     int num2;
-    num2=hund%100;
+    num2=num1%100;
 
     int fifty;
     fifty=num2/50;
@@ -47,5 +47,11 @@ int main()
     int one;
     one=num7/1;
 
-    cout << hund << fifty<<twenty<<ten<<five<<two<<one <<endl;
+    cout << "100-"<< hund << endl;
+    cout << "50-" << fifty << endl;
+    cout << "20-" << twenty << endl;
+    cout << "10-" << ten << endl;
+    cout << "5-"<<five << endl ;
+    cout << "2-" <<two << endl;
+    cout << "1-"<<one << endl;
 }
