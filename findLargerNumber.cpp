@@ -4,11 +4,11 @@ using namespace std;
 int main()
     {
     float number1;
-    cout << "Enter your first number :";
+    cout << "Enter your first number:";
     cin >> number1;
 
     float number2;
-    cout << "Enter your second number :";
+    cout << "Enter your second number:";
     cin >> number2;
 
     if(number1 > number2){

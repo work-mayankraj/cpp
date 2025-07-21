@@ -15,7 +15,7 @@ int main(){
 
     //suntraction
     float subtraction;
-    subtraction = number1- number2;
+    subtraction = number1 - number2;
     cout << "The subtraction of " << number1 << " and " << number2 << " is: " << subtraction <<  endl;
 
     //Multiplication
